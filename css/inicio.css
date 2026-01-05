@@ -15,6 +15,8 @@
   position: relative;
   color: white;
   text-align: center;
+
+  overflow: visible; /* CLAVE para que se vea la imagen */
 }
 
 /* CAJA CENTRAL */
@@ -54,5 +56,7 @@
 
   position: absolute;
   bottom: -70px;
+
   background: white;
+  z-index: 10; /* CLAVE para que no quede tapada */
 }
